@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Screenshot", "Screenshot.vcxproj", "{725876EB-B83D-4F42-9988-BB9F2DD41039}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SnapshotInstaller", "..\..\SnapshotInstaller\SnapshotInstaller.vdproj", "{1B68F159-1042-439F-B0E9-5DFD96448AB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|win32 = Debug|win32
@@ -21,6 +23,11 @@ Global
 		{725876EB-B83D-4F42-9988-BB9F2DD41039}.Release|win32.Build.0 = Release|Win32
 		{725876EB-B83D-4F42-9988-BB9F2DD41039}.Release|x64.ActiveCfg = Release|x64
 		{725876EB-B83D-4F42-9988-BB9F2DD41039}.Release|x64.Build.0 = Release|x64
+		{1B68F159-1042-439F-B0E9-5DFD96448AB4}.Debug|win32.ActiveCfg = Debug
+		{1B68F159-1042-439F-B0E9-5DFD96448AB4}.Debug|win32.Build.0 = Debug
+		{1B68F159-1042-439F-B0E9-5DFD96448AB4}.Debug|x64.ActiveCfg = Debug
+		{1B68F159-1042-439F-B0E9-5DFD96448AB4}.Release|win32.ActiveCfg = Release
+		{1B68F159-1042-439F-B0E9-5DFD96448AB4}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
