@@ -2,6 +2,6 @@
 C++ Snapshot program
 
 __last update__ - 20.05.2017  
-Made by Alex Mytnyk  
+_Made by Alex Mytnyk_  
 Personal webpage - `http://domatur.com`  
-find bug - `http://domatur.com/report.html`
+Find bug? Write it - `http://domatur.com/report.html`
