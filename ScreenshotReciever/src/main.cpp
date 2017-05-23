@@ -1,4 +1,4 @@
-#pragma comment(lib, "Ws2_32.lib")
+
 #include <iostream>
 #include <Windows.h>
 #include <fstream>
@@ -9,9 +9,8 @@
 #include <stdio.h>
 #include "log.hpp"
 
-using namespace sf;
 
-void Save(Packet& packet)
+void Save(sf::Packet& packet)
 {
   size_t size = packet.getDataSize();// >> tx;
   std::vector<char> data(size);
@@ -31,8 +30,8 @@ int main()
 {
   while (true)
   {
-    TcpSocket socket;
-    TcpListener listener;
+    sf::TcpSocket socket;
+    sf::TcpListener listener;
     Log log;
     if (listener.listen(2001) != sf::Socket::Status::Done)
     {
@@ -42,7 +41,7 @@ int main()
     {
       log.LogF("Error: cannot accept socket");
     }
-    Packet packet;
+    sf::Packet packet;
     if (socket.receive(packet) == sf::Socket::Status::Done)
     {
       Save(packet);
